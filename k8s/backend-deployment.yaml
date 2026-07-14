@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: backend
-          image: mca-backend:latest
+          image: tamizh978/mca-backend:latest
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 8080
